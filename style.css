@@ -1,0 +1,447 @@
+
+  body
+{
+  font-family: "Arial";
+
+}  
+
+
+/* first-opener */
+#first-opener
+{
+
+    /* background-image: url("net1.jpg");
+    background-color: #ededed;
+    background-repeat: no-repeat; */
+    background: radial-gradient(
+        rgba(0, 0, 0, 0.15), 
+        rgba(0, 0, 0, 0.82)
+      ) , url(https://assets.nflxext.com/ffe/siteui/vlv3/3b48f428-24ed-4692-bb04-bc7771854131/7d96189e-4a66-48ad-bf08-e6f850f8463e/IN-en-20200302-popsignuptwoweeks-perspective_alpha_website_large.jpg);
+    height: 88%;
+    width: 100%;
+
+}
+.logo
+  {
+      /* display: inline;
+      font-size: 50px; 
+      color: red; 
+      font-family: "Bebas Neue"; */
+      margin-left: 20px;
+      margin-top: 20px;
+  }
+
+.margin
+{
+    position: relative;
+    margin-left: 530px;
+    margin-top: 30px;
+    color: red;
+    height: 50px;
+    width: 300px;
+    
+    
+
+}
+.text1
+{
+    text-align: center;
+    margin-top: 150px;
+    color: white;
+}
+.btn {
+    display: inline-block;
+    margin-right: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 13px;
+    font-weight: 300;
+    text-align: center;
+    vertical-align: middle;
+    cursor: pointer;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    background-color: transparent;
+    border: 1px solid transparent;
+    padding: 0.375rem 0.75rem;
+    font-size: 1.5rem;
+    line-height: 1.5;
+    border-radius: 0.25rem;
+    transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+  }
+
+  .btn:hover 
+  {
+    color: #212529;
+    text-decoration: none;
+  }
+
+  .btn-danger {
+    color: #fff;
+    background-color:red;
+    border-color: red;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  .btn-danger:hover {
+    color: #fff;
+    background-color: red;
+    border-color: red;
+  }
+  .button-align
+  {
+    position: absolute;
+    display: inline-block;
+    left: 1180px;
+    margin-top: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  #mid-top
+  {
+    background-image: url("background2.jpg");
+    background-repeat: no-repeat;
+    
+    width: 100%;
+    height: 125%;
+  }
+  .head2
+  {
+    margin:0;
+    padding-top: 200px;
+    font-size: 50px;
+    line-height: 1.5rem;
+    color: white;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+   
+  }
+  .head3
+  {
+    margin:0;
+    padding-top: 30px;
+    font-size: 50px;
+    line-height: 1.5rem;
+    color: white;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+
+  }
+  
+ 
+  .h12
+  {
+    position: relative;
+    color:silver;
+    line-height: 1rem;
+    font-size: 30px;
+    margin-left: 600px;
+    font-family: "montserrat";
+    
+  }
+  .head4
+  {
+    margin-top: 100px;
+  }
+  .h32
+  {
+    color: green;
+    margin-left: 125px;
+    display: inline;
+    font-size: 30px;
+    font-family: "montserrat";
+    line-height: 1rem;
+
+  }
+  .h31
+  {
+    color: white;
+    display:inline;
+    font-size: 20px;
+    line-height: 1rem;
+  }
+  .h33
+  {
+    color: white;
+    font-size: 20px;
+    margin-left: 600px;
+  }
+ .head5
+ {
+   margin-top: 50px;
+ }
+ #part-3
+ {
+   background-color: black;
+   width: 100%;
+   height: 80%;
+ }
+ .border
+ {
+   margin-top: 0;
+   background-color: #4a4a48;
+   width: 100%;
+   height: 8px;
+ }
+ /* do not know why align left not working inside video tag */
+ .head6
+  {
+    position: absolute;
+    font-size: 50px;
+    margin-left :170px;
+    margin-top: 103px;;
+    display: inline;
+    font-family: "montserrat";
+    color: white;
+    
+  }
+ 
+  .image1
+  {
+    position: relative;
+     padding-top: 40px;
+    margin-left: 730px;
+    display: inline;
+  
+  }
+
+  
+  .head7
+  {
+    position:absolute;
+    margin-top: 200px;
+    margin-left: 170px;
+    font-size: 25px;
+    display: inline;
+    font-family: "montserrat";
+    color: white;
+  }
+.outline
+{
+  background-color:transparent;
+  text-indent:0;
+	border:2px solid white;
+	display:inline;
+	color:white;
+	font-family:"montserrat";
+	font-size:20px;
+	font-weight:bold;
+	font-style:normal;
+  height: 44px;
+  width: 250px; 
+	text-align:center;
+}
+.button-align1
+{
+  position: absolute;
+  margin-top: 320px;
+  margin-left: 170px;
+}
+.border1
+{
+  position: absolute;
+  margin-bottom: 103px;
+  background-color:#4a4a48;
+  width: 100%;
+  height: 8px;
+}
+#part-4
+{
+  background-color: black;
+  width: 100%;
+  height: 80%;
+}
+.image2
+{
+  position: absolute;
+  margin-top: 100px;
+  margin-left: 40px;
+}
+.head8
+{
+  position: absolute;
+  display: inline;
+  color: white;
+  margin-left: 640px;
+  margin-top: 130px;
+  font-size: 50px;
+  
+}
+.head9
+{
+  position: absolute;
+  color: white;
+  margin-left:640px;
+  margin-top: 270px;
+  display: inline;
+  font-size: 25px;
+  font-family: "montserrat";
+
+}
+.button-align2
+{
+  position: absolute;
+  margin-top: 350px;
+  margin-left: 640px;
+}
+#part-5
+{
+  background-color: black;
+  width: 100%;
+  height: 80%;
+}
+#FAQ
+{
+  background-color: black;
+  width: 100%;
+  height: 136%;
+}
+.head10
+{
+  position:absolute;
+  margin-left: 320px;
+  margin-top: 65px;
+  font-size: 50px;
+  color: white;
+  font-family: "montserrat";
+}
+.block
+{
+  background-color: #303030;
+  width: 68%;
+  height: 7%;
+  font-size: 30px;
+  color: white;
+  text-align: center;
+  margin-top:0;
+}
+.big-block
+{
+  
+  margin-top: 170px;
+  margin-left: 295px;
+}
+#foot
+{
+  background-color: black;
+  width: 100%;
+  height: 50%;
+}
+.done
+{
+  margin-top: 80px;
+  margin-left: 200px;
+
+}
+.foot-1
+{
+  color: white;
+  font-size: 13px;
+}
+.foot-2
+{
+  color: white;
+  font-size: 13px;
+  line-height: 30px;
+
+}
+.down
+{
+  color: white;
+  font-size: 13px;
+  line-height: 60px;
+
+
+}
+.margin3
+{
+  position: absolute;
+  margin-left: 530px;
+  margin-top: 70px;
+}
+.accordion1{
+  background-color: #303030;
+  margin-top: 150px;
+  margin-left: 270px;
+  color: white;
+  font-size: 25px;
+  cursor: pointer;
+  padding: 18px;
+  width: 60%;
+  text-align: left;
+  border: none;
+  outline: none;
+  transition: 0.4s;
+}
+.accordion1:after {
+  content: '\02795'; /* Unicode character for "plus" sign (+) */
+  font-size: 25px;
+  color: white;
+  float: right;
+  margin-left: 5px;
+}
+.active:after {
+  content: "\2716"; /* Unicode character 
+  for "minus" sign (-) */
+}
+.panel1 {
+  padding: 0 18px;
+  background-color:#303030;
+  margin-left: 270px;
+  font-size: 25px;
+  color: white;
+  max-height: 0;
+  width: 57.3%;
+  overflow: hidden;
+  transition: max-height 0.2s ease-out;
+}
+.accordion {
+  background-color: #303030;
+  /*margin-top: 150px;*/
+  margin-left: 270px;
+  color: white;
+  font-size: 25px;
+  cursor: pointer;
+  padding: 18px;
+  width: 60%;
+  text-align: left;
+  border: none;
+  outline: none;
+  transition: 0.4s;
+}
+
+/* Add a background color to the button if it is clicked on (add the .active class with JS), and when you move the mouse over it (hover) */
+
+.accordion:after {
+  content: '\02795'; /* Unicode character for "plus" sign (+) */
+  font-size: 25px;
+  color: white;
+  float: right;
+  margin-left: 5px;
+}
+
+
+.active:after {
+  content: "\2716"; /* Unicode character for "minus" sign (-) */
+}
+
+/* Style the accordion panel. Note: hidden by default */
+
+.panel {
+  padding: 0 18px;
+  background-color:#303030;
+  margin-left: 270px;
+  font-size: 25px;
+  color: white;
+  max-height: 0;
+  width: 57.3%;
+  overflow: hidden;
+  transition: max-height 0.2s ease-out;
+}
+/* .panel {
+  padding: 0 18px;
+  background-color:#303030;
+  max-height: 0;
+  width: 55%;
+  overflow: hidden;
+  transition: max-height 0.2s ease-out;
+} */
